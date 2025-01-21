@@ -31,8 +31,9 @@ section{
       margin: 20px auto;
 }
 .title{
-      font-size: 4rem;
+      font-size: 2.875rem;
       font-weight: 700;
+      text-align: center;
 }
 .btn-primary{
       color: #ffffff;
@@ -97,7 +98,8 @@ section{
 
 /* banner related styles */
 .banner{
-      justify-content: space-around
+      justify-content: space-between;
+      gap: 50px;
 }
 .banner-info{
       max-width: 640px;
@@ -114,6 +116,63 @@ section{
       font-weight: 700;
       font-size: 4rem;
 }
+
+
+/* Curriculum related styles */
+.curriculum{
+      background-image: url(/img/bg.png);
+      background-repeat: no-repeat;
+}
+.curriculum-box{
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+      gap: 20px;
+      margin-top: 80px;
+}
+.cbox-card{
+      border-radius: 19px;
+      text-align: center;
+      background-color: #fff;
+      border-radius: 13px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      width: 300px;
+      padding: 20px;
+      transition: transform 0.3s;
+}
+.cbox-title{
+      font-weight: 700;
+      font-size: 1.5rem;
+      margin: 32px auto;
+}
+.cbox-desription{
+      color: #808080;
+      margin: 33px 40px;
+}
+#cbox-blue{
+      font-weight: 700;
+      color: #64C8FF;
+}
+#cbox-yellow{
+      font-weight: 700;
+      color: #F0AA00;
+}
+#cbox-vaguni{
+      font-weight: 700;
+      color: #8700FF;
+}
+.cbox1{
+      background: linear-gradient(to bottom, #e0f7fa, #ffffff);
+}
+.cbox2{
+      background: linear-gradient(to bottom, #fff3e0, #ffffff);
+}
+.cbox3{
+      background: linear-gradient(to bottom, #f3e5f5, #ffffff);
+}
+
+
+
 
 
 
@@ -140,5 +199,9 @@ section{
       }
       .banner-info{
             text-align: center;
+      }
+      /* main section  */
+      .curriculum{
+            background-image: none;
       }
 }
