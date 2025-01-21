@@ -21,6 +21,9 @@
 .skyblue-color{
       color: SkyBlue;
 }
+.btn-green{
+      background-color: #95B226;
+}
 section{
       max-width: 1440px;
       margin: 60px auto;
@@ -44,7 +47,6 @@ section{
       font-weight: 700;
       font-size: 1.25rem;
 }
-
 
 
 /* navber related styles */
@@ -94,7 +96,6 @@ section{
 .display-blcok{
       display: none;
 }
-
 
 /* banner related styles */
 .banner{
@@ -181,7 +182,7 @@ section{
       color: white;
       border: none;
       border-radius: 50%;
-      font-size: 24px;
+      font-size: 1.5rem;
       margin-top: 80px;
       width: 60px;
       height: 60px;
@@ -189,10 +190,68 @@ section{
 }
 
 
+/* Stories related styles */
+.stories{
+      background-image: url(/img/bg.png);
+      background-repeat: no-repeat;
+      background: linear-gradient(#FFFFFF, #fea1013d);
+}
+.s-maegin{
+      margin: 80px auto;
+      justify-content: space-around;
+      gap: 20px;
+}
+.storie-big-card{
+      max-width: 540px;
+      background-color: white;
+      border-radius: 16px;
+      width: 50%;
+}
+.storie-card{
+      background-color: white;
+      border-radius: 16px;
+      text-align: center;
+
+}
+.storie-cards{
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 20px;
+      width: 50%;
+}
+.storie-big-card img{
+      border-radius: 16px 16px 0px 0px;
+      width: 100%;
+}
+.storie-card img{
+      border-radius: 16px 16px 0px 0px;
+      width: 100%;
+}
+.primary-badge{
+      padding: 10px 20px;
+      border-radius: 48px;
+      color: #ffffff;
+      border-style: none;
+      margin-top: -22px;
+      margin-left: 38px;
+}
+.btn-blue{
+      background-color: #5D58F0;
+}
+.btn-neviblue{
+      background-color: #3CD8E8;
+}
+.btn-align{
+      text-align: center;
+}
+.storie-desription{
+      padding: 33px;
+      font-weight: 700;
+}
 
 
 
- /* small size device respponsive media query  */
+/* small size device respponsive media query  */
 @media screen and (max-width: 576px) {
       .hide-on{
             display: none;
@@ -219,5 +278,8 @@ section{
       /* main section  */
       .curriculum{
             background-image: none;
+      }
+      .storie-cards{
+            grid-template-columns: repeat(1, 1fr);
       }
 }
