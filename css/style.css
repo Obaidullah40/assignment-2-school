@@ -30,7 +30,10 @@ section{
       max-width: 1440px;
       margin: 20px auto;
 }
-
+.title{
+      font-size: 4rem;
+      font-weight: 700;
+}
 .btn-primary{
       color: #ffffff;
       background-color: black;
@@ -40,6 +43,7 @@ section{
       font-weight: 700;
       font-size: 1.25rem;
 }
+
 
 
 /* navber related styles */
