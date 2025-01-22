@@ -24,10 +24,7 @@
 .btn-green{
       background-color: #95B226;
 }
-section{
-      /* max-width: 1440px; */
-      margin-top: 60px;
-}
+
 .navbar,
 .banner{
       max-width: 1440px;
@@ -37,6 +34,7 @@ section{
       font-size: 2.875rem;
       font-weight: 700;
       text-align: center;
+      margin-top: 60px;
 }
 .btn-primary{
       color: #ffffff;
@@ -121,8 +119,7 @@ section{
 
 /* Curriculum related styles */
 .curriculum{
-      background-image: url(../img/bg.png);;
-      /* background-repeat: no-repeat; */
+      background-image: url("../img/bg.png");
       
 }
 .curriculum-boxs{
@@ -193,14 +190,13 @@ section{
 
 /* Stories related styles */
 .stories{
-      background-image: url(../img/bg.png); 
-      background-color: linear-gradient(#FFFFFF, #fea1013d); 
-      background-blend-mode: overlay; 
-      background-size: cover; 
-      background-repeat: no-repeat; 
-      background-position: center;
-      width: 100%;
-      /* padding-left: 100%; */
+      background: linear-gradient(
+            180deg,
+            rgba(255, 255, 255, 1) 0%,
+            rgba(254, 163, 1, 0.3) 100%
+        ),
+      url("../img/bg.png");
+
 }
 .s-maegin{
       margin: 80px auto;
@@ -250,6 +246,7 @@ section{
 }
 .btn-align{
       text-align: center;
+      padding-bottom: 60px;
 }
 .storie-desription{
       padding: 33px;
