@@ -268,7 +268,7 @@ marquee{
       color: #ffffff;
       border-style: none;
       margin-top: -50px;
-      margin-left: -190px;
+      margin-left: -50%;
       position: absolute;
 }
 .btn-blue{
@@ -278,7 +278,7 @@ marquee{
       color: #ffffff;
       border-style: none;
       margin-top: -50px;
-      margin-left: -190px;
+      margin-left: -50%;
       position: absolute;
 }
 .btn-align{
@@ -380,3 +380,7 @@ marquee{
             margin-top: 32px;
       }
 }
+
+
+
+
