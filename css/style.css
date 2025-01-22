@@ -147,7 +147,7 @@ section{
 .cbox-title{
       font-weight: 700;
       font-size: 1.5rem;
-      margin: 32px auto;
+      margin: 32px 40px;
 }
 .cbox-desription{
       color: #808080;
@@ -192,9 +192,14 @@ section{
 
 /* Stories related styles */
 .stories{
-      background-image: url(/img/bg.png);
-      background-repeat: no-repeat;
-      background: linear-gradient(#FFFFFF, #fea1013d);
+      background-image: url(../img/bg.png); 
+      background-color: linear-gradient(#FFFFFF, #fea1013d); 
+      background-blend-mode: overlay; 
+      background-size: cover; 
+      background-repeat: no-repeat; 
+      background-position: center;
+      width: 100%;
+      /* padding-left: 100%; */
 }
 .s-maegin{
       margin: 80px auto;
@@ -216,6 +221,7 @@ section{
 .storie-cards{
       display: grid;
       grid-template-columns: repeat(2, 1fr);
+      justify-content: center;
       gap: 20px;
       width: 50%;
 }
@@ -232,7 +238,7 @@ section{
       border-radius: 48px;
       color: #ffffff;
       border-style: none;
-      margin-top: -22px;
+      margin-top: -32px;
       margin-left: 38px;
 }
 .btn-blue{
@@ -248,6 +254,7 @@ section{
       padding: 33px;
       font-weight: 700;
 }
+
 
 
 
@@ -280,6 +287,6 @@ section{
             background-image: none;
       }
       .storie-cards{
-            grid-template-columns: repeat(1, 1fr);
+            grid-template-columns: repeat(2, 1fr);
       }
 }
