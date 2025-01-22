@@ -215,13 +215,27 @@ marquee{
       background-color: white;
       border-radius: 16px;
       width: 50%;
+      transition: transform 0.3s;
 }
-.storie-card{
-      background-color: white;
-      border-radius: 16px;
-      text-align: center;
-      /* position: relative; */
-      
+.storie-big-card:hover {
+      transform: translateY(-10px);
+}
+.storie-big-card img{
+      border-radius: 16px 16px 0px 0px;
+      width: 100%;
+}
+.big-card-btn{
+      padding: 10px 20px;
+      border-radius: 48px;
+      color: #ffffff;
+      background-color: #3CD8E8;
+      border-style: none;
+      margin-top: -22px;
+      margin-left: 38px;
+      position: absolute;
+}
+.storie-big-card h3{
+      margin-top: 15%;
 }
 .storie-cards{
       display: grid;
@@ -230,28 +244,42 @@ marquee{
       gap: 20px;
       width: 50%;
 }
-.storie-big-card img{
-      border-radius: 16px 16px 0px 0px;
-      width: 100%;
+.storie-card{
+      background-color: white;
+      border-radius: 16px;
+      text-align: center;
+      transition: transform 0.3s;
+}
+.storie-card:hover {
+      transform: translateY(-10px);
 }
 .storie-card img{
       border-radius: 16px 16px 0px 0px;
       width: 100%;
+}
+.sdiv{
+      margin: 30px;
+      position: relative;
+
 }
 .primary-badge{
       padding: 10px 20px;
       border-radius: 48px;
       color: #ffffff;
       border-style: none;
-      /* margin-top: 32px;
-      margin-left: 38px;
-      position: absolute; */
+      margin-top: -50px;
+      margin-left: -190px;
+      position: absolute;
 }
 .btn-blue{
       background-color: #5D58F0;
-}
-.btn-neviblue{
-      background-color: #3CD8E8;
+      padding: 10px 20px;
+      border-radius: 48px;
+      color: #ffffff;
+      border-style: none;
+      margin-top: -50px;
+      margin-left: -190px;
+      position: absolute;
 }
 .btn-align{
       text-align: center;
@@ -335,6 +363,10 @@ marquee{
       }
       .storie-cards{
             grid-template-columns: repeat(2, 1fr);
+      }
+      .primary-badge,.btn-blue{
+            margin-top: -50px;
+            margin-left: -90px;
       }
       .footer{
             grid-template-columns: repeat(1, 1fr);
