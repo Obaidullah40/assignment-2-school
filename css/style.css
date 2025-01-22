@@ -172,6 +172,13 @@
 .cbox3{
       background: linear-gradient(to bottom, #f3e5f5, #ffffff);
 }
+marquee{
+      font-size: 30px;
+      font-weight: 800;
+      color: #8ebf42;
+      font-family: sans-serif;
+      margin-top: 30px;
+      }
 .navigation {
       text-align: center;
 }
@@ -213,6 +220,7 @@
       background-color: white;
       border-radius: 16px;
       text-align: center;
+      /* position: relative; */
       
 }
 .storie-cards{
@@ -235,8 +243,9 @@
       border-radius: 48px;
       color: #ffffff;
       border-style: none;
-      margin-top: -32px;
+      /* margin-top: 32px;
       margin-left: 38px;
+      position: absolute; */
 }
 .btn-blue{
       background-color: #5D58F0;
@@ -256,7 +265,7 @@
 .footer{
       background-color: #01ACFD;
       color: #FFFFFF;
-      padding: 40px 20px;
+      padding: 80px 60px;
       display: grid;
       grid-template-columns: repeat(3, 1fr);
       justify-items: center;
@@ -321,6 +330,9 @@
       .curriculum{
             background-image: none;
       }
+      .curriculum-box{
+            width: 80%;
+      }
       .storie-cards{
             grid-template-columns: repeat(2, 1fr);
       }
@@ -331,5 +343,8 @@
       }
       .kids{
             margin-left: 0;
+      }
+      .keep, .aboutS{
+            margin-top: 32px;
       }
 }
